@@ -1,0 +1,28 @@
+#disbox{
+    border: 2px solid black;
+    width:200px;
+    height: 200px;
+}
+
+body{
+    background-color: deepskyblue;
+}
+
+h2{
+    font-size: xx-large;
+    margin:20px;
+    text-align: center;
+    font-style: italic;
+    font-family: fantasy;
+}
+
+h3{
+    color: antiquewhite;
+
+}
+
+label{
+    color:rgb(59, 59, 202);
+    font-size:larger;
+    font-family: Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+}

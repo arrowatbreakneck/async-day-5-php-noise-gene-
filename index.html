@@ -1,0 +1,79 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/css/bootstrap.min.css" integrity="sha384-xOolHFLEh07PJGoPkLv1IbcEPTNtaed2xpHsD9ESMhqIYd0nLMwNLD69Npy4HI+N" crossorigin="anonymous">
+    <link rel="stylesheet" href="style.css">
+    <title>Document</title>
+
+</head>
+<body>
+<div>
+    <div class="container" style="display: flex;">
+        <div class="row">
+            <div>
+                <form>
+                    <h2>Noise Background Image Generator</h2>
+                  <h3> create your very own background images. Fill in the form below to customize the parameters, or leave the fields blank to create a random image.</h3>
+                    <div class="form-row">
+                      <div class="col-md-6 mb-3">
+                        <label for="validationDefault01">Red</label>
+                        <input type="number" class="form-control" id="validationDefault01" placeholder="red(0-255)" required>
+                      </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationDefault02">Green</label>
+                            <input type="number" class="form-control" id="validationDefault02" placeholder="Green(0-255)" required>
+                          </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationDefault03">Blue</label>
+                            <input type="number" class="form-control" id="validationDefault03" placeholder="Blue(0-255)" required>
+                          </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationDefault04">Tiles</label>
+                            <input type="number" class="form-control" id="validationDefault04" placeholder="No.of.tiles(1-50)" required>
+                          </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationDefault05">tileSize</label>
+                            <input type="number" class="form-control" id="validationDefault05" placeholder="tilesize in px(0-15)" required>
+                          </div>
+                    </div>
+                    <div class="form-row">
+                        <div class="col-md-6 mb-3">
+                            <label for="validationDefault06">Borderwidth </label>
+                            <input type="number" class="form-control" id="validationDefault06" placeholder="borderwidth in px (0-15)" required>
+                          </div>
+                    </div>
+                    <div class="form-row">
+                        <label for="">mode :</label>
+                        <label for="bright">brightness</label>
+                        <input type="radio" name="same" id="bright" value="brightness"><br>
+                        <label for="Around">around</label>
+                        <input type="radio" name="same" id="bright" value="Around">
+
+                    </div>
+                    
+                    <button class="btn btn-primary" type="submit">submit</button>
+                  </form>
+            </div>
+            <div id="disbox">
+
+            </div>
+
+        </div>
+    </div>
+</div>
+
+
+    <script src="script.js"></script>
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@4.6.2/dist/js/bootstrap.bundle.min.js" integrity="sha384-Fy6S3B9q64WdZWQUiU+q4/2Lc9npb8tCaSX9FK7E8HnRr0Jz8D6OP9dO5Vg3Q9ct" crossorigin="anonymous"></script>
+</body>
+</html>
